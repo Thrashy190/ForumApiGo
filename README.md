@@ -2,7 +2,7 @@
 
 Backend api part for a fullstack project with Go and ReactJS
 
-Frontend part [here] (https://github.com/Thrashy190)
+Frontend part [here](https://github.com/Thrashy190)
 
 ## Backend api part
 
