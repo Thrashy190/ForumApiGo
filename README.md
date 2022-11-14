@@ -8,11 +8,11 @@ Frontend part [here](https://github.com/Thrashy190)
 
 The tools we use are:
 
-    * JWT for auth authorization
-    * GORM for database modeling and connection
-    * Gorilla mux for http router
-    * Docker container for lauch db
-    * PostgreSQL for database
+- JWT for auth authorization
+- GORM for database modeling and connection
+- Gorilla mux for http router
+- Docker container for lauch db
+- PostgreSQL for database
 
 ### Docker config
 
