@@ -16,8 +16,12 @@ The tools we use are:
 
 ### Docker config
 
-    docker run --name forum-go-app -e POSTGRES_PASSWORD=postgrespw -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 55002:5432 -d postgres
+```bash
+docker run --name forum-go-app -e POSTGRES_PASSWORD=postgrespw -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 55002:5432 -d postgres
+```
 
 ### PG admin config
 
-    docker run -p 5050:80 -e 'PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org' -e 'PGADMIN_DEFAULT_PASSWORD=admin' -d --name pgadmin4 dpage/pgadmin4
+```bash
+docker run -p 5050:80 -e 'PGADMIN_DEFAULT_EMAIL=pgadmin4@pgadmin.org' -e 'PGADMIN_DEFAULT_PASSWORD=admin' -d --name pgadmin4 dpage/pgadmin4
+```
