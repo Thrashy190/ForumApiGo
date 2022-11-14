@@ -9,6 +9,7 @@ Frontend part [here](https://github.com/Thrashy190)
 The tools we use are:
 
 - JWT for auth authorization
+- bcrypt for password encryption
 - GORM for database modeling and connection
 - Gorilla mux for http router
 - Docker container for lauch db
